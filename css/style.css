@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: serif;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 24px;
+    line-height: 34px;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.green{
+    margin: 40px;
+    width: 500px;
+    height: 250px;
+    background-color: green;
+}
+.red{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: absolute;
+    top: 90px;
+    left: 200px;
+    
+}
+.green .fb{
+    width: 140px;
+    position: fixed;
+    top: 30%;
+    right: -89px;
+}
+.green .fb:hover{
+    right: 0px;
+    transition: 0.5s;
+}
+.green .pn{
+    width: 150px;
+    position: fixed;
+    top: 40%;
+    right: -100px;
+}
+.green .pn:hover{
+    right: 0px;
+    transition: 0.5s;
+}
+.green .li{
+    width: 150px;
+    position: fixed;
+    top: 50%;
+    right: -100px;
+}
+.green .li:hover{
+    right: 0px;
+    transition: 0.5s;
+}
+.social{
+    width: 100%;
+    
+    text-align: center;
+    padding: 115px 0px;
+}
+.social li{
+    list-style: none;
+    display: inline-block;
+}
+.social li a{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    margin: 0px 20px;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 100%;
+    line-height: 60px;
+    transition: 0.5s;
+}
+.social li a:hover{
+    color: #fff;
+    background-color: #08c;
+}
